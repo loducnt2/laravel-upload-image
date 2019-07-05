@@ -1,0 +1,22 @@
+{
+    "name": "cudlo411/laravel-upload-image",
+    "description": "Demo package upload image",
+    "version": "dev-master",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+	    {
+	      "name": "Cudlo",
+	      "email": "cudlo@gmail.com"
+	    }
+  	],
+    "require-dev": {
+	    "mockery/mockery": "dev-master"
+	},
+	"autoload": {
+	    "psr-4": {
+	      "LaravelImage\\": "src/LaravelImage"
+	    }
+	},
+	"minimum-stability": "stable"
+}
